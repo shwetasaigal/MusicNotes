@@ -1,0 +1,72 @@
+#content{
+	width:70%;
+	
+}
+section img{
+	width:200px;
+	float:right;
+	padding:10px;
+}
+#sidebar{
+	margin-right:10px;
+	width:25%;
+	float:right;
+}
+
+.block img{
+	width:100px;
+	float:left;
+	padding:5px;
+
+}
+/*Tablet/ipad both views*/
+@media only screen and (min-width:768px) and (max-width:960px){
+	
+  
+#content{
+    width:60%;
+    float:left;
+	
+  }
+  #sidebar{
+    margin-right:5px;
+	width:30%;
+    float:right;
+  }
+  .block img{
+	width:150px;
+	float:left;
+	padding:5px;
+
+}
+  
+}
+
+/*smaller tablets*/
+@media only screen and (min-width:569px) and (max-width:767px){
+  
+  #content{
+    width:100%;
+	float:none;
+	
+  }
+  #sidebar{
+    width:100%;
+    float:none;
+  }
+  
+}
+/*smartphones*/
+@media only screen and (min-width:240px) and (max-width:568px){
+ 
+  #content{
+    width:100%;
+    float:none;
+	
+  }
+  #sidebar{
+    width:100%;
+    float:none;
+  }
+  
+}
